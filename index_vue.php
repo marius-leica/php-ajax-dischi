@@ -20,8 +20,8 @@
             <div class="container  flex-grow-1">
                 <div class="pt-5 pb-2 px-1">
                     <div class="row row-cols-2 row-cols-md-5">
-                        <div class="col mb-3">
-                            <div v-for="album in albumsList" class="card text-center">
+                        <div class="col mb-3" v-for="album in albumsList">
+                            <div class="card text-center h-100">
                                 <img class="card-img-top img-poster" :src="album.poster" :alt="album.title">
                                 <div class="card-body">
                                     <h5 class="card-title">{{album.title}}</h5>
