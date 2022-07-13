@@ -6,7 +6,6 @@ require "../db/db.php";
 
 
 
-var_dump($dati);
 
 header("Content-Type: application/json");
 

@@ -7,8 +7,8 @@ new Vue({
   //voglio recuperare i dati del
   mounted() {
     axios.get("api/albumsList.php").then((resp) => {
-      this.albumsList = resp.data;
-      console.log(this.albumsList);
+      this.albumsList = resp.data.dati;
+      console.log(resp.data.dati);
     });
   },
 });
