@@ -16,12 +16,20 @@
     <div id="app">
 
         <div class="container">
-            <?php var_dump($albumsList); ?>
-            <h1>{{ }}</h1>
+
+            <!-- <h1>{{ albumsList }}</h1> -->
 
             <ul id="productsContainer">
                 <li v-for="album in albumsList">
-                    {{ }}
+                    <div class="card">
+                        <img class="card-img-top" :src="album.poster" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title">{{ album.title }}</h5>
+                            <p class="card-text">{{ album.author }}</p>
+                            <p class="card-text">{{ album.year }}</p>
+                        </div>
+                    </div>
+
                 </li>
             </ul>
         </div>

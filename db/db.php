@@ -1,6 +1,6 @@
 <?php
 
-$albumsList = [
+$dati = [
     [
         "poster" => "https://can-of-worms.co.uk/3273-large_default/bon-jovi-new-jersey-album-cover-wooden-coaster.jpg",
         "title" => "New Jersey",

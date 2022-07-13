@@ -24,7 +24,7 @@ require_once __DIR__ . "/db/db.php";
             <div class="pt-5 pb-2 px-1">
                 <div class="row row-cols-2 row-cols-md-5">
                     <?php
-                    foreach ($albumsList as $album) {
+                    foreach ($dati as $album) {
                         echo "<div class='col mb-3'>";
                         echo  "<div class='card text-center h-100'>";
                         echo "<img class='card-img-top img-poster' src='$album[poster]' alt='$album[title]'>";
