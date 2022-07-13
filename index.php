@@ -1,5 +1,5 @@
 <?php
-require_once __DIR__ . "/db.php";
+require_once __DIR__ . "/db/db.php";
 
 //Stampiamo i dischi solo con l’utilizzo di PHP, che stampa direttamente i dischi in pagina: al caricamento della pagina ci saranno tutti i dischi.
 
@@ -15,7 +15,7 @@ require_once __DIR__ . "/db.php";
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.0-beta1/css/bootstrap.min.css' integrity='sha512-o/MhoRPVLExxZjCFVBsm17Pkztkzmh7Dp8k7/3JrtNCHh0AQ489kwpfA3dPSHzKDe8YCuEhxXq3Y71eb/o6amg==' crossorigin='anonymous' />
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>Albums con PHP</title>
 </head>
 
 <body>
